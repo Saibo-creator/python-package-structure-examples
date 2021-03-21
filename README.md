@@ -15,5 +15,14 @@ print(np)
 [tweepy](https://github.com/tweepy/tweepy)
 ...
 
+## take away
+- import inside the package:
+```python
+from .logging_setup import logger
+from .AbstractImageAgeLabeler import AbstractImageAgeLabeler
+```
+- tests and example run scripts placed outside of source code directory
+
+
 ## License
 All packages retain their original license. Please refer to the original package license for more information.
