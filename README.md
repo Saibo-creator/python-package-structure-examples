@@ -9,13 +9,13 @@ print(np)
 # something like <module 'numpy' from '/opt/anaconda3/lib/python3.7/site-packages/numpy/__init__.py'>
 ```
 
-## original packages:
+## Original packages:
 [PyPDF2](https://github.com/mstamy2/PyPDF2)
 
 [tweepy](https://github.com/tweepy/tweepy)
 ...
 
-## take away
+## Take-away
 - import inside the package:
 ```python
 from .logging_setup import logger
