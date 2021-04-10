@@ -24,7 +24,7 @@ from .AbstractImageAgeLabeler import AbstractImageAgeLabeler
 - tests and example run scripts placed outside of source code directory
 
 
-- inside __init__.py
+- inside \__init__.py
 ```
 __version__ = '3.9.0'
 __author__ = 'Joshua Roesslein'
