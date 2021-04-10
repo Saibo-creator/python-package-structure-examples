@@ -24,5 +24,21 @@ from .AbstractImageAgeLabeler import AbstractImageAgeLabeler
 - tests and example run scripts placed outside of source code directory
 
 
+- inside __init__.py
+```
+__version__ = '3.9.0'
+__author__ = 'Joshua Roesslein'
+__license__ = 'MIT'
+
+from tweepy.api import API
+from tweepy.auth import AppAuthHandler, OAuthHandler
+from tweepy.cache import Cache, FileCache, MemoryCache
+from tweepy.cursor import Cursor
+from tweepy.error import RateLimitError, TweepError
+from tweepy.models import DirectMessage, Friendship, ModelFactory, SavedSearch, SearchResults, Status, User
+from tweepy.streaming import Stream, StreamListener
+```
+
+
 ## License
 All packages retain their original license. Please refer to the original package license for more information.
