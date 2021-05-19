@@ -40,5 +40,9 @@ from tweepy.streaming import Stream, StreamListener
 ```
 
 
+> Don't run a module inside the package as a script. Only run scripts from outside the package.
+> Mixing scripts inside packages is tricky and should be avoided if at all possible. Use a wrapper script that imports the package and runs your 'scripty' function instead.
+
+
 ## License
 All packages retain their original license. Please refer to the original package license for more information.
